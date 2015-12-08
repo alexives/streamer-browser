@@ -1,0 +1,16 @@
+{
+  "name": "Stream Browser",
+  "version": "0.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "keywords": [
+    "Electron"
+  ],
+  "author": "Alex Ives",
+  "devDependencies": {
+    "electron-prebuilt": "^0.35.0"
+  }
+}
