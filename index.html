@@ -2,9 +2,25 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Streamer</title>
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-    <webview src="http://www.slacker.com/station/indie-sunrise" autosize="on" plugins></webview>
+  <nav>
+    <span>
+      <img src="icons/house_flag.png"/>
+      <span class="title">Name</span>
+      <span class="service">Service</span>
+    </span>
+  <div id="addNav">
+    <svg class="plus" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="21" height="21" viewBox="0, 0, 21, 21">
+      <g id="Layer_1" transform="translate(-21, -21)">
+        <path d="M31.5,42 C25.701,42 21,37.299 21,31.5 C21,25.701 25.701,21 31.5,21 C37.299,21 42,25.701 42,31.5 C42,37.299 37.299,42 31.5,42 z M31,26 L31,31 L26,31 L26,32 L31,32 L31,37 L32,37 L32,32 L37,32 L37,31 L32,31 L32,26 z"/>
+      </g>
+    </svg>
+
+  </div>
+  </nav>
+  <div id="urlBar">http://your.streaming.service/playlist</div>
   </body>
 </html>
