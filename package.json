@@ -1,14 +1,21 @@
 {
-  "name": "Stream Browser",
+  "name": "StreamBrowser",
   "version": "0.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
     "start": "electron main.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexives/streamer-browser.git"
+  },
   "keywords": [
     "Electron"
   ],
+  "bugs": {
+    "url": "https://github.com/alexives/streamer-browser/issues"
+  },
   "author": "Alex Ives",
   "devDependencies": {
     "electron-prebuilt": "^0.35.0"
